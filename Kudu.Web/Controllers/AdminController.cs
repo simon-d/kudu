@@ -3,6 +3,7 @@ using Kudu.Web.Infrastructure;
 
 namespace Kudu.Web.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private readonly KuduEnvironment _environment;
